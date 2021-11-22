@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "visitors",
+  "info": {
+    "name": "visitor",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "location": {
+      "type": "json"
+    },
+    "browser": {
+      "type": "json"
+    }
+  }
+}
