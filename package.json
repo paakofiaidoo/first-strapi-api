@@ -7,13 +7,15 @@
     "develop": "strapi develop",
     "start": " strapi start",
     "build": "strapi build",
-    "strapi": "strapi"
+    "strapi": "strapi",
+    "console": "strapi console"
   },
   "devDependencies": {},
   "dependencies": {
     "dotenv": "^10.0.0",
     "knex": "0.21.18",
     "pg": "^8.7.1",
+    "pg-connection-string": "^2.5.0",
     "sqlite3": "5.0.0",
     "strapi": "3.6.8",
     "strapi-admin": "3.6.8",
